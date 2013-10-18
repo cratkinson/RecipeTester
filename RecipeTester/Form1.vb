@@ -27,6 +27,7 @@ Public Class Form1
         Dim l As List(Of IngredientLine) = p.ParseBlock(TextBox1.Text)
 
         For Each i In l
+
             MsgBox(i.Ingredient)
 
         Next
